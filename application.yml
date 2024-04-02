@@ -17,7 +17,7 @@ proxy:
       groups: mathematicians
   specs:
     - id: shiny-pak-demo
-      display-name: Shiny with pak Demo Application
+      display-name: Shiny using pak Demo Application
       container-image: openanalytics/shinyproxy-shiny-pak-demo
 
 logging:
