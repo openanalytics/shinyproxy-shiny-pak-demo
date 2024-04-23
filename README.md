@@ -5,8 +5,8 @@ using [pak](https://pak.r-lib.org/) inside ShinyProxy.
 
 Related demos:
 
-- [plain Shiny demo](https://github.com/openanalytics/shinyproxy-demo)
-- [plain Shiny demo (no R package)](https://github.com/openanalytics/shinyproxy-demo-minimal)
+- [plain Shiny demo](https://github.com/openanalytics/shinyproxy-shiny-demo)
+- [plain Shiny demo (no R package)](https://github.com/openanalytics/shinyproxy-shiny-demo-minimal)
 - [Shiny demo using r2u](https://github.com/openanalytics/shinyproxy-shiny-r2u-demo)
 - [Shiny demo using renv](https://github.com/openanalytics/shinyproxy-shiny-renv-demo)
 
@@ -19,7 +19,7 @@ sudo docker pull openanalytics/shinyproxy-shiny-pak-demo
 ```
 
 the relevant Docker Hub repository can be found
-at https://hub.docker.com/r/openanalytics/shinyproxy-shiny-pak-demo
+at <https://hub.docker.com/r/openanalytics/shinyproxy-shiny-pak-demo>.
 
 To build the image from the Dockerfile, clone this repository, then navigate to
 its root directory and run
@@ -41,7 +41,7 @@ specs:
     container-image: openanalytics/shinyproxy-shiny-pak-demo
 ```
 
-# References
+## References
 
 - [ShinyProxy.io](https://shinyproxy.io/)
 - [All demos](https://shinyproxy.io/documentation/demos/)
