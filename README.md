@@ -35,10 +35,11 @@ configuration file (see [application.yml](./application.yml) for a complete
 file):
 
 ```yaml
-specs:
-  - id: shiny-pak-demo
-    display-name: Shiny using pak Demo Application
-    container-image: openanalytics/shinyproxy-shiny-pak-demo
+proxy:
+  specs:
+    - id: shiny-pak-demo
+      display-name: Shiny using pak Demo Application
+      container-image: openanalytics/shinyproxy-shiny-pak-demo
 ```
 
 ## References
